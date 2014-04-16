@@ -10,4 +10,18 @@
 * Holding Ontology -> what for
 * other approaches to holdings descriptions (schema.org, bibframe, rda/frbr vocab)
 * ... 
+* 
 
+## About DINI
+
+[About DINI]: #about-dini
+
+> The German Initiative for Network Information (DINI) was founded to coordinate and support the management of these changes. DINI is committed to improving the information and communication services in higher education institutions and learned societies, and the necessary information infrastructures regionally and nationally.
+
+See also [DINI] website for more information.
+
+
+
+
+
+[DINI]: http://dini.de
