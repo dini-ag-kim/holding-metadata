@@ -20,8 +20,18 @@
 
 See also [DINI] website for more information.
 
+## About KIM
+
+[About KIM]: #about-kim
+
+The Kompetenzzentrum Interoperable Metadaten ([KIM]) is a working group to DINI and provides experts in the field of metadata and Semantic Web a forum for continuous exchange of knowledge and sustainable networking.
+
+## About Working Group Holdings
+
+The Working Group Holdings (Bestandsdaten) is a federation of people mainly from libraries interested in the field of expressing holdings data with RDF. The Group was founded in April 2013. 
 
 
 
 
 [DINI]: http://dini.de
+[KIM]: http://www.kim-forum.org
