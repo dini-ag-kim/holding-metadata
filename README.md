@@ -45,17 +45,30 @@ How does current RDF data provided by library institutions model and expose hold
 
 ### Libraries
 
+#### Germany
+
 - **K10plus**: RDF dump (https://wiki.k10plus.de/display/K10PLUS/Open+Data) does not include holding information. LOD interface uses different URIs and some holding information (e.g. http://uri.gbv.de/document/opac-de-627:ppn:024248908) based in non-standard DAIA Ontology and FRBR. Current work to update the model and data at https://github.com/gbv/k10plus-items
 
 - **DNB**: provides bibliographic data in RDF but no holding information.
 
 - **SLUB Dresden** uses Schema.org (offers/offeredBy), see `curl -s "https://data.slub-dresden.de/resources/1322972605" | jq '.[].offers'` for example.
 
-- **lobid resources** uses mostly Bibframe with [`lv:callNumber`](http://purl.org/lobid/lv#callNumber), see e.g. `$ curl -H "accept: application/ld+json" "https://lobid.org/resources/HT003565173#!" | jq '.hasItem'`. In the context of migrating the union catalog to Alma, We are currently working on extending the model to also cover licenes for electronic resources, see especially [lobid-resources #1373 "Properly model MBD, POR, H52, ITM, etc."](https://github.com/hbz/lobid-resources/issues/1373).
+- **lobid resources (bzg)** uses mostly Bibframe with [`lv:callNumber`](http://purl.org/lobid/lv#callNumber), see e.g. `$ curl -H "accept: application/ld+json" "https://lobid.org/resources/HT003565173#!" | jq '.hasItem'`. In the context of migrating the union catalog to Alma, We are currently working on extending the model to also cover licenes for electronic resources, see especially [lobid-resources #1373 "Properly model MBD, POR, H52, ITM, etc."](https://github.com/hbz/lobid-resources/issues/1373).
+
+- **[Bibliotheksverbund Bayern][(https://lod.b3kat.de/)** `frbr:Item`, `frbr:exemplar`, `frbr:owner`, `schema:serviceUrl`
+  Beispiel: https://lod.b3kat.de/page/title/BV023347895%23item-DE-1051
+
+- hebis: z.Z. offline
+
+- ZDB: ...
+
+#### Worldwide
 
 - **University of Washington Libraries**: see MARC21-to-RDA/LRM/RDF Mapping Project
 
-- ...
+- **Finnish National Library**: bibliographic data in RDF but holdings not included
+
+
 
 ### GLAM
 
