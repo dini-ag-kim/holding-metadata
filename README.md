@@ -34,6 +34,11 @@ Holding Ontology Draft (2015):
 - Google Search Recommendations for Book data provided by Libraries:
   https://developers.google.com/search/docs/appearance/structured-data/book#library-systems-and-library-members
 
+[IFLA Library Reference Model (LRM)](https://www.iflastandards.info/lrm)
+- "is reproduction item of"/"has reproduction item" and "exemplifies"/"is exemplified by" (Item - Manifestation)
+- "is owned by"/"owns" and "was modified by"/"modified" (Item - Agent)
+- "has use rights", "has location" (Item - ...)
+
 ## Current practice
 
 How does current RDF data provided by library institutions model and expose holding data? (review needed)
