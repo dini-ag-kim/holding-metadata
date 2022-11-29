@@ -39,6 +39,8 @@ Holding Ontology Draft (2015):
 - "is owned by"/"owns" and "was modified by"/"modified" (Item - Agent)
 - "has use rights", "has location" (Item - ...)
 
+- Musings by (2013) Hans-Georg Becker (TU Dortmund): https://the-lodlam-mercury.de/2013/11/22/library-holdings-as-linked-data/ and https://the-lodlam-mercury.de/tag/bestandsnachweise/
+
 ## Current practice
 
 How does current RDF data provided by library institutions model and expose holding data? (review needed)
