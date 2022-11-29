@@ -34,9 +34,29 @@ Holding Ontology Draft (2015):
 - Google Search Recommendations for Book data provided by Libraries:
   https://developers.google.com/search/docs/appearance/structured-data/book#library-systems-and-library-members
 
-## Open questions
+## Current practice
 
-- How does current RDF data provided by library institutions model and expose holding data? (review needed)
+How does current RDF data provided by library institutions model and expose holding data? (review needed)
+
+### Libraries
+
+- **K10plus**: RDF dump (https://wiki.k10plus.de/display/K10PLUS/Open+Data) does not include holding information. LOD interface uses different URIs and some holding information (e.g. http://uri.gbv.de/document/opac-de-627:ppn:024248908) based in non-standard DAIA Ontology and FRBR.
+
+- **DNB**: provides bibliographic data in RDF but no holding information.
+
+- **SLUB Dresden** uses Schema.org (offers/offeredBy), see `curl -s "https://data.slub-dresden.de/resources/1322972605" | jq '.[].offers'` for example.
+
+- **University of Washington Libraries**: see MARC21-to-RDA/LRM/RDF Mapping Project
+
+- ...
+
+### GLAM
+
+Museums and archives have more unique physical objects. This may be somehow related to holdings or it may not
+
+- https://linked.art/ uses CIDOC-CRM
+
+- ...
 
   
 
