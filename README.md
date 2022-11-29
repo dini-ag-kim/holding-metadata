@@ -45,7 +45,7 @@ How does current RDF data provided by library institutions model and expose hold
 
 ### Libraries
 
-- **K10plus**: RDF dump (https://wiki.k10plus.de/display/K10PLUS/Open+Data) does not include holding information. LOD interface uses different URIs and some holding information (e.g. http://uri.gbv.de/document/opac-de-627:ppn:024248908) based in non-standard DAIA Ontology and FRBR.
+- **K10plus**: RDF dump (https://wiki.k10plus.de/display/K10PLUS/Open+Data) does not include holding information. LOD interface uses different URIs and some holding information (e.g. http://uri.gbv.de/document/opac-de-627:ppn:024248908) based in non-standard DAIA Ontology and FRBR. Current work to update the model and data at https://github.com/gbv/k10plus-items
 
 - **DNB**: provides bibliographic data in RDF but no holding information.
 
